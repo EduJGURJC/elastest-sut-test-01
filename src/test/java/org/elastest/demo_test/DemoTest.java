@@ -21,7 +21,6 @@ public class DemoTest {
 		boolean works = validUrl(appIP);
 		System.out.println("assert");
 		assertTrue("The SuT is started and works fine", works);
-		// exitVnc(p);
 	}
 
 	public static boolean validUrl(String URLName) {
@@ -33,14 +32,6 @@ public class DemoTest {
 		} catch (Exception e) {
 			e.printStackTrace();
 			return false;
-		}
-	}
-
-	public void sleep(int ms) {
-		try {
-			Thread.sleep(ms);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
 		}
 	}
 }
