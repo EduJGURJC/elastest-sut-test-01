@@ -14,7 +14,7 @@ public class DemoTest {
 	@Test
 	public void simplePlainSeleniumTest() {
 
-		String appIP = System.getenv("APP_IP");
+		String appIP = System.getenv("ET_SUT_HOST");
 //		String appIP = "http://172.27.0.11:8080";
 		System.out.println("SuT ip: " + appIP);
 
